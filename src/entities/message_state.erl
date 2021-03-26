@@ -8,7 +8,6 @@
 -description("The message state entity").
 
 -include("entity.hrl").
--include("../packets/packet.hrl").
 -include_lib("cqerl/include/cqerl.hrl").
 
 -export([get/1, create/2, filter_sections/1]).

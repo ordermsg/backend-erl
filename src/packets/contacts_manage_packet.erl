@@ -6,7 +6,6 @@
 -author("Order").
 -license("MPL-2.0").
 
--include("packet.hrl").
 -export([decode/2]).
 
 decode(<<Type:8/unsigned-integer,

@@ -7,8 +7,6 @@
 -license("MPL-2.0").
 -description("The role entity").
 
--include("entity.hrl").
--include("../packets/packet.hrl").
 -include_lib("cqerl/include/cqerl.hrl").
 
 -export([get/1, create/5]).

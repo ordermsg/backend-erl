@@ -8,7 +8,6 @@
 -description("The user entity").
 
 -include("entity.hrl").
--include("../packets/packet.hrl").
 -include_lib("cqerl/include/cqerl.hrl").
 
 -export([get/1, search/1, update/2, email_in_use/1, create/4, create/3, online/1]).

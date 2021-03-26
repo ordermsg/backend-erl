@@ -6,7 +6,6 @@
 -author("Order").
 -license("MPL-2.0").
 
--include("packet.hrl").
 -include("../entities/entity.hrl").
 -export([decode/2]).
 
